@@ -9,11 +9,11 @@ import (
 	"os"
 	"time"
 
-	"apiserver/config"
-	"apiserver/model"
-	v "apiserver/pkg/version"
-	"apiserver/router"
-	"apiserver/router/middleware"
+	"api-gin/config"
+	"api-gin/model"
+	v "api-gin/pkg/version"
+	"api-gin/router"
+	"api-gin/router/middleware"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"

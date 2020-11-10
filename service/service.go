@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"apiserver/model"
-	"apiserver/util"
+	"api-gin/model"
+	"api-gin/util"
 )
 
 func ListUser(username string, offset, limit int) ([]*model.UserInfo, uint64, error) {
